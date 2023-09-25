@@ -48,12 +48,112 @@
 .fa-chevron-right {
     margin-left: 5px;
 }
-.section-two-title{
-    font-size: 40px;
+
+.section-two-title {
+    font-size: 38px;
     font-weight: 700;
 }
-.section-two{
+
+.section-three-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-two {
     margin-top: 100px;
     gap: 80px;
 }
- 
+
+/* Plan List Section*/
+.plan-list {
+    list-style: none;
+}
+
+.card-group {
+    margin-top: 100px;
+    gap: 60px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.subject {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card-button {
+    border-style: none;
+    color: #6f9bfa;
+    padding: 10px 40px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    background: #e0ecfd;
+}
+
+.card-paragraph {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #848199;
+}
+
+.card-list-p {
+    margin-top: 15px;
+    color: #848199;
+    font-weight: 600;
+} 
+.card-800{ 
+    margin: 0px auto;
+    box-shadow: 0px 10px 20px 10px rgba(16, 107, 243, 0.3);  
+    padding: 20px;
+}
+.card-800 p{
+    color: white;
+}
+.button-800{
+    padding-bottom: 20px;
+    border-style: none;
+    color: #4a83fc;
+    padding: 10px 40px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    background: #ffffff;
+}
+.top-msg{
+    margin-right: 50px;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 576px) { 
+    .banner-title{
+        font-size: 20px;
+    }
+    .banner-full{
+        margin-bottom: 0;
+    }   
+    .banner-p {
+        margin-bottom: 0;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    br{
+        display: none;
+    }
+    .button-primary{
+        display: none;
+    }
+    .section-two{
+        margin-top: 50px;
+    }
+    .card-group{
+        margin-top: 50px;
+    }
+
+}
