@@ -130,7 +130,29 @@
     margin-right: 50px;
     padding: 5px 10px;
 }
-
+.footer{
+    background-color: black;
+    padding: 50px;
+}
+.copy a{
+    color: #3F87F5;
+    font-weight: bold;
+    text-decoration: none;
+}
+.foot-get{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.foot-get img{
+    width: 135px;
+    height: 40px; 
+}
+.img-fot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 @media screen and (max-width: 576px) { 
     .banner-title{
         font-size: 20px;
@@ -155,5 +177,10 @@
     .card-group{
         margin-top: 50px;
     }
-
+    .foot-get{
+        margin-top: 50px;
+    }
+    .img-fot{
+        flex-direction: row;
+    }
 }
